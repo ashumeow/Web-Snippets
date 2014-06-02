@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Displaying plugins</title>
+</head>
+<body>
+<h1>List of plugins </h1>
+<table border>
+<tr><th>Plugin name</th>
+<th>Filename</th>
+<th>Description</th>
+</tr>
+<script language="JavaScript">
+for(i=0;i<navigator.plugins.length;i++)
+{
+document.write("<tr><td>");
+document.write(navigator.plugins[i].name);
+document.write("</td><td>");
+document.write(navigator.plugins[i].filename);
+document.write("</td><td>");
+document.write(navigator.plugins[i].description);
+document.write("</td></tr>");
+}
+</script>
+</table>
+</body>
+</html>
