@@ -1,1 +1,1 @@
-Getting started with Javascript (^_^)
+Some random HTML and Javascript snippets... ;) 
