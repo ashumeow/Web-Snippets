@@ -47,9 +47,9 @@ toolbox.precache(['image.jpg','results.json','page.html']);
 toolbox.router.default=toolbox.networkFirst;
 ```
 ```html
-//
+<!--
 // index.html
-//
+-->
 <script src="webcomponents-lite.min.js"></script>
 <link rel="import" href="platinum-sw-elements.html">
 <platinum-sw-register auto-register>
